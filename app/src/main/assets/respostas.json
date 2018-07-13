@@ -1,0 +1,151 @@
+[
+   {
+     "Numero": 1,
+     "Resposta1": "Não me sinto triste.",
+     "Resposta2": "Eu me sinto triste.",
+     "Resposta3": "Estou sempre triste e não consigo sair disto.",
+     "Resposta4": "Estou tão triste ou infeliz que não consigo suportar."	 
+    },
+   {
+     "Numero": 2,
+     "Resposta1": "Não estou especialmente desanimado quanto ao futuro." ,
+     "Resposta2": "Eu me sinto desanimado quanto ao futuro.",
+     "Resposta3": "Acho que nada tenho a esperar.",
+     "Resposta4": "Acho o futuro sem esperança e tenho a impressão de que as coisas não podem melhorar."	 
+    },
+	{
+     "Numero": 3,
+     "Resposta1": "Não me sinto um fracasso" ,
+     "Resposta2": "Acho que fracassei mais do que uma pessoa comum.",
+     "Resposta3": "Quando olho para trás, na minha vida, tudo o que posso ver é um monte de fracassos.",
+     "Resposta4": "Acho que, como pessoa, sou um completo fracasso."
+	 
+    },
+	{
+     "Numero": 4,
+     "Resposta1": "Tenho tanto prazer em tudo como antes." ,
+     "Resposta2": "Não sinto mais prazer nas coisas como antes.",
+     "Resposta3": "Não encontro um prazer real em mais nada.",
+     "Resposta4": "Estou insatisfeito ou aborrecido com tudo."	 
+    },
+	{
+     "Numero": 5,
+     "Resposta1": "Não me sinto especialmente culpado.",
+     "Resposta2": "Eu me sinto culpado grande parte do tempo.",
+     "Resposta3": "Eu me sinto culpado na maior parte do tempo.",
+     "Resposta4": "Eu me sinto sempre culpado."	 
+    },
+	{
+     "Numero": 6,
+     "Resposta1": "Não acho que esteja sendo punido.",
+     "Resposta2": "Acho que posso ser punido.",
+     "Resposta3": "Creio que vou ser punido.",
+     "Resposta4": "Acho que estou sendo punido"	 
+    },
+	{
+     "Numero": 7,
+     "Resposta1": "Não me sinto decepcionado comigo mesmo.",
+     "Resposta2": "Estou decepcionado comigo mesmo.",
+     "Resposta3": "Estou enojado de mim",
+     "Resposta4": "Eu me odeio."	 
+    },
+	{
+     "Numero": 8,
+     "Resposta1": "Não me sinto de qualquer modo pior que os outros.",
+     "Resposta2": "Sou crítico em relação a mim por minhas fraquezas ou erros.",
+     "Resposta3": "Eu me culpo sempre por minhas falhas.",
+     "Resposta4": "Eu me culpo por tudo de mal que acontece."	 
+    },
+	{
+     "Numero": 9,
+     "Resposta1": "Não tenho quaisquer ideias de me matar.",
+     "Resposta2": "Tenho ideias de me matar, mas não as executaria",
+     "Resposta3": "Gostaria de me matar",
+     "Resposta4": "Eu me mataria se tivesse oportunidade"	 
+    },
+	{
+     "Numero": 10,
+     "Resposta1": "Não choro mais que o habitual.",
+     "Resposta2": "Choro mais agora do que costumava",
+     "Resposta3": "Agora, choro o tempo todo.",
+     "Resposta4": "Costumava ser capaz de chorar, mas agora não consigo, mesmo que o queira."	 
+    },
+	{
+     "Numero": 11,
+     "Resposta1": "Não sou mais irritado agora do que já fui." ,
+     "Resposta2": "Fico aborrecido ou irritado mais facilmente do que costumava.",
+     "Resposta3": "Agora, eu me sinto irritado o tempo todo.",
+     "Resposta4": "Não me irrito mais com coisas que costumavam me irritar."	 
+    },
+	{
+     "Numero": 12,
+     "Resposta1": "Não perdi o interesse pelas outras pessoas.",
+     "Resposta2": "Estou menos interessado pelas outras pessoas do que costumava estar.",
+     "Resposta3": "Perdi a maior parte do meu interesse pelas outras pessoas.",
+     "Resposta4": "Perdi todo o interesse pelas outras pessoas"	 
+    },
+	{
+     "Numero": 13,
+     "Resposta1": "Tomo decisões tão bem quanto antes.",
+     "Resposta2": "Adio as tomadas de decisões mais do que costumava.",
+     "Resposta3": "Tenho mais dificuldades de tomar decisões do que antes.",
+     "Resposta4": "Absolutamente não consigo mais tomar decisões."	 
+    },
+	{
+     "Numero": 14,
+     "Resposta1": "Não acho que de qualquer modo pareço pior do que antes.",
+     "Resposta2": "Estou preocupado em estar parecendo velho ou sem atrativo.",
+     "Resposta3": "Acho que há mudanças permanentes na minha aparência, que me fazem parecer sem atrativo.",
+     "Resposta4": "Acredito que pareço feio."	 
+    },
+	{
+     "Numero": 15,
+     "Resposta1": "Posso trabalhar tão bem quanto antes.",
+     "Resposta2": "É preciso algum esforço extra para fazer alguma coisa.",
+     "Resposta3": "Tenho que me esforçar muito para fazer alguma coisa.",
+     "Resposta4": "Não consigo mais fazer qualquer trabalho."	 
+    },
+	{
+     "Numero": 16,
+     "Resposta1": "Consigo dormir tão bem como o habitual.",
+     "Resposta2": "Não durmo tão bem como costumava.",
+     "Resposta3": "Acordo 1 a 2 horas mais cedo do que habitualmente e acho difícil voltar a dormir.",
+     "Resposta4": "Acordo várias horas mais cedo do que costumava e não consigo voltar a dormir."	 
+    },
+	{
+     "Numero": 17,
+     "Resposta1": "Não fico mais cansado do que o habitual.",
+     "Resposta2": "Fico cansado mais facilmente do que costumava.",
+     "Resposta3": "Fico cansado em fazer qualquer coisa.",
+     "Resposta4": "Estou cansado demais para fazer qualquer coisa."	 
+    },
+	{
+     "Numero": 18,
+     "Resposta1": "O meu apetite não está pior do que o habitual.",
+     "Resposta2": "Meu apetite não é tão bom como costumava ser.",
+     "Resposta3": "Meu apetite é muito pior agora.",
+     "Resposta4": "Absolutamente não tenho mais apetite."	 
+    },
+	{
+     "Numero": 19,
+     "Resposta1": "Não tenho perdido muito peso se é que perdi algum recentemente.",
+     "Resposta2": "Perdi mais do que 2 quilos e meio.",
+     "Resposta3": "Perdi mais do que 5 quilos.",
+     "Resposta4": "Perdi mais do que 7 quilos."	 
+    },
+	{
+     "Numero": 20,
+     "Resposta1": "Não estou mais preocupado com a minha saúde do que o habitual.",
+     "Resposta2": "Estou preocupado com problemas físicos, tais como dores, indisposição do estômago ou constipação.",
+     "Resposta3": "Estou muito preocupado com problemas físicos e é difícil pensar em outra coisa.",
+     "Resposta4": "Estou tão preocupado com meus problemas físicos que não consigo pensar em qualquer outra coisa."
+	 
+    },	
+	{
+     "Numero": 21,
+     "Resposta1": "Não notei qualquer mudança recente no meu interesse por sexo.",
+     "Resposta2": "Estou menos interessado por sexo do que costumava.",
+     "Resposta3": "Estou muito menos interessado por sexo agora.",
+     "Resposta4": "Perdi completamente o interesse por sexo"	 
+    },
+]

@@ -10,11 +10,10 @@ class ResultadoIdentificacaoDoencaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado_identificacao_doenca)
 
-        if (supportActionBar != null) {
-            supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-            supportActionBar!!.setDisplayShowHomeEnabled(true)
-            supportActionBar!!.title = "Relatório Médico"
-        }
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.title = "Relatório Médico"
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
