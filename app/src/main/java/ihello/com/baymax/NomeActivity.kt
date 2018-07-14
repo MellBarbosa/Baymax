@@ -17,7 +17,7 @@ class NomeActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowHomeEnabled(true)
         supportActionBar?.title = "Identificação de Doenças"
 
-        btnProximo.setOnClickListener{
+        btnNext.setOnClickListener{
             if (ValidaDados()) {
                 val intent = Intent(this, SintomasActivity::class.java)
                 startActivity(intent)

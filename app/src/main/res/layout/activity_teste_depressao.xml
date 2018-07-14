@@ -37,13 +37,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <RadioGroup
+        android:id="@+id/rgRespostas"
         android:layout_width="343dp"
-        android:layout_height="250dp"
+        android:layout_height="272dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnProximo"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +81,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnProximo"
+        android:id="@+id/btnNext"
         android:layout_width="321dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -92,4 +93,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pbRespostas"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="316dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintEnd_toEndOf="@+id/rgRespostas"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/rgRespostas"
+        app:layout_constraintTop_toBottomOf="@+id/rgRespostas" />
 </android.support.constraint.ConstraintLayout>
