@@ -99,11 +99,14 @@ class TesteDepressaoActivity : AppCompatActivity() {
         if (pontos > 0 && pontos <= 13)
             builder.setMessage("Nenhuma Depressão")
         else if (pontos >= 14 && pontos <=19)
-            builder.setMessage("Depressão leve")
+            builder.setMessage("Depressão leve \n" +
+                    " Favor procurar ajuda médica.")
         else if (pontos >= 20 && pontos <=28)
-            builder.setMessage("Depressão moderada")
+            builder.setMessage("Depressão moderada \n" +
+                    " Favor procurar ajuda médica.")
         else if (pontos >= 29 && pontos <= 63)
-            builder.setMessage("Depressão grave")
+            builder.setMessage("Depressão grave \n" +
+                    " Favor procurar ajuda médica.")
 
         builder.create()
 

@@ -1,0 +1,202 @@
+[
+   {
+     "Id": 1,
+     "Nome": "Tuberculose",
+     "Descricao": "Doença bacteriana infecciosa. Afeta principalmente os pulmões e pode ser grave.",
+     "Area": "Respiratória",
+     "Instrucoes": "Os pacientes com sintomas manifestos precisam de um longo tratamento com vários antibióticos.",	 
+     "CID": "A153"
+	},
+   {
+     "Id": 2,
+     "Nome": "Rinite Alérgica",
+     "Descricao": "É uma reaçao imunológica do corpo a partículas inaladas que são estranhas.",
+     "Area": "Respiratória",
+     "Instrucoes": "O tratamento de portadores de rinite alérgica devem ter uma higiene ambiental, tomar medicamentos e fazer imunoterapia.",	 
+     "CID": "J304"
+	},
+   {
+     "Id": 3,
+     "Nome": "Gripe",
+     "Descricao": "É uma infecção do sistema respiratório cuja principal complicaçao é a pneumonia.",
+     "Area": "Respiratória",
+     "Instrucoes": "",	 
+     "CID": ""
+	},
+   {
+     "Id": 4,
+     "Nome": "Bronquite",
+     "Descricao": "A bronquite é a inflamação das principais passagens de ar para os pulmões.",
+     "Area": "Respiratória",
+     "Instrucoes": "Tratamento feito com o uso de medicamentos receitados por um médico especialista.",	 
+     "CID": "J209"
+	},
+   {
+     "Id": 5,
+     "Nome": "Asma",
+     "Descricao": "Doença inflamatória crônica das vias aéreas.",
+     "Area": "Respiratória",
+     "Instrucoes": "Por ser doença crônica deve apenas ser evitada com medicamentos indicados por médicos especializados. "	 
+     "CID": "J459"
+	},
+   {
+     "Id": 6,
+     "Nome": "Apendicite",
+     "Descricao": "É a inflamaçao do apêndice, uma região do intestino grosso.",
+     "Area": "Digestivo",
+     "Instrucoes": "Para o tratamento deve ser feita uma cirurgia onde o apêndice inflamado é retirado do intestino."	 
+     "CID": "K359"
+	},
+   {
+     "Id": 7,
+     "Nome": "Pancreatite",
+     "Descricao": "Inflamação do pâncreas, glândula que se localiza perto do estômago.",
+     "Area": "Digestivo",
+     "Instrucoes": "O tratamento envolve o uso de medicamentos, reeducação alimentar e até processos cirúrgicos."	 
+     "CID": "K859"
+	},
+   {
+     "Id": 8,
+     "Nome": "Gastroenterite",
+     "Descricao": "A gastroenterite é uma inflamação aguda que compromete os órgãos do sistema gastrointestinal.",
+     "Area": "Digestivo",
+     "Instrucoes": "Se for causada por vírus, a gastroenterite pode passar sozinha e o tratamento serve apenas para amenizar sintomas e repor a perda de líquidos. "	 
+     "CID": "K529"
+	},
+   {
+     "Id": 9,
+     "Nome": "Cancêr de Cólon",
+     "Descricao": "Trata-se de um tumor no segmento do intestino grosso e do reto.",
+     "Area": "Digestivo",
+     "Instrucoes": "O tratamento é realizado com a retirada do tumor, radioterapia e quimioterapia."	 
+     "CID": "C189"
+	},
+   {
+     "Id": 10,
+     "Nome": "Prisão de Ventre",
+     "Descricao": "Problema caracterizado por fezes duras e dificuldade para evacuar.",
+     "Area": "Digestivo",
+     "Instrucoes": "O tratamento deve ser feito cum uma alimentação saudável e medicamentos."	 
+     "CID": "K598"
+	},
+   {
+     "Id": 11,
+     "Nome": "Cefaleias",
+     "Descricao": "São dores de cabeça que podem se propagar para a face, atingindo os dentes e os pescoços.",
+     "Area": "Nervoso",
+     "Instrucoes": "O tratamento da crise visa a interrupção da crise de forma eficaz."	 
+     "CID": "R51"
+	},
+   {
+     "Id": 12,
+     "Nome": "Esclerose Múltipla",
+     "Descricao": "É uma doença autoimune que afeta o cérebro, nervos ópticos e a medula espinhal.",
+     "Area": "Nervoso",
+     "Instrucoes": "O tratamento geralmente se concentra em manejar as crises, controlar os sintomas e reduzir a progressão da doença."	 
+     "CID": "G35"
+	},
+   {
+     "Id": 13,
+     "Nome": "Doença de Parkinson",
+     "Descricao": "É uma doença degenerativa do sistema nervoso central , crônica e progressiva.",
+     "Area": "Nervoso",
+     "Instrucoes": "O tratamento visa aliviar os sintomas e retardar a progressão da doença de Parkinson, pois ainda não tem cura."	 
+     "CID": "G20"
+	},
+   {
+     "Id": 14,
+     "Nome": "Alzheimer",
+     "Descricao": "É uma doença neuro-degenerativa que provoca o dequínio das funções cognitivas, reduzindo as capacidades de trabalho e relação social, interferindo no comportamento e personalidade.",
+     "Area": "Nervoso",
+     "Instrucoes": "O tratamento é realizado por medicamentos para poder aliviar os sintomas, por ser uma doença genética ainda sem cura."	 
+     "CID": "G309"
+	},
+   {
+     "Id": 15,
+     "Nome": "Epilepsia",
+     "Descricao": "É uma alteração temporária e reversível do funcionamento do cérebro.",
+     "Area": "Nervoso",
+     "Instrucoes": "É feito por medicamentos que evitam as descargas elétricas cerebrais anormais, que são a origens das crises epiléticas."	 
+     "CID": "G409"
+	},
+   {
+     "Id": 16,
+     "Nome": "Osteoporose",
+     "Descricao": "Resulta devido á perda de de tecido ósseo.",
+     "Area": "Esquelético",
+     "Instrucoes": "Não tem cura porem pode melhorar a massa óssea tomando medicamentos, alimentação saudável e exercicios fisicos."	 
+     "CID": "M81"
+	},
+   {
+     "Id": 17,
+     "Nome": "Artrite",
+     "Descricao": "É uma desordem comum da articulação.",
+     "Area": "Esquelético",
+     "Instrucoes": "O tratamento pode ser feito por medicamentos, fisioterapia ou até mesmo cirurgia que ajudam á reduzir os sintomas e melhorar a qualidade de vida."	 
+     "CID": "M13"
+	},
+   {
+     "Id": 18,
+     "Nome": "Osteomielite",
+     "Descricao": "É uma infecção ossea causada devido a infecção pelas bactérias de Staphylococcus.",
+     "Area": "Esquelético",
+     "Instrucoes": "Geralmente, o tratamento é cirúrgico. Onde os fragmentos osseos necróticos são removidos e antibióticos são administrados,"	 
+     "CID": "M86"
+	},
+   {
+     "Id": 19,
+     "Nome": "Raquitismo",
+     "Descricao": "Doença que faz as pernas arqueadas em crianças devido à deficiência de vitamida D e cálcio.",
+     "Area": "Esquelético",
+     "Instrucoes": "É necessário aumentar a absorção de vitaminas D e cálcio em crianças com raquitismo."	 
+     "CID": "E55"
+	},
+   {
+     "Id": 20,
+     "Nome": "Escoliose",
+     "Descricao": "É uma doença em que a coluna da pessoa se curva de um lado para o outro em forma de "S".",
+     "Area": "Esquelético",
+     "Instrucoes": "Geralmente não é preciso fazer nenhum tipo de tratamento, mas cirurgia e uso de coletes podem ser necessários em casos mais graves."	 
+     "CID": "M41"
+	},
+   {
+     "Id": 21,
+     "Nome": "Astigmatismo",
+     "Descricao": "É uma diferença de curvatura nos meridiano da córnea ou do cristalino.",
+     "Area": "Visual",
+     "Instrucoes": "Pode ser tratado com óculos, lente de contato ou cirurgia."	 
+     "CID": "H52"
+	},
+   {
+     "Id": 22,
+     "Nome": "Catarata",
+     "Descricao": "É caracterizada pela opacificação parcial ou total do cristalino. ",
+     "Area": "Visual",
+     "Instrucoes": "O tratamento da catarata é cirúrgico. Não existem colírios ou qualquer outro tratamento clínico para correção desta opacidade do cristalino."	 
+     "CID": "H26"
+	},
+   {
+     "Id": 23,
+     "Nome": "Glaucoma",
+     "Descricao": "O Glaucoma é uma doença que atinge o nervo óptico e envolve a perda de células da retina responsáveis por enviar os impulsos nervosos ao cérebro.",
+     "Area": "Visual",
+     "Instrucoes": "Até o momento diminuir a pressão intraocular é o principal tratamento do glaucoma. "	 
+     "CID": "H40"
+	},
+   {
+     "Id": 24,
+     "Nome": "Pterígio",
+     "Descricao": "É um espessamento da conjuntiva que cresce da periferia para o centro da córnea.",
+     "Area": "Visual",
+     "Instrucoes": "A remoção cirúrgica pode estar indicada, podendo ocorrer alguns casos de recorrência."	 
+     "CID": "H11"
+	},
+   {
+     "Id": 25,
+     "Nome": "Ceratocone",
+     "Descricao": "É uma doença não inflamatória, na maioria das vezes progressiva, que afeta o formato e a espessura da córnea.",
+     "Area": "Visual",
+     "Instrucoes": "As principais alternativas terapêuticas seguem a seguinte ordem: óculos, lente de contato e cirurgia."	 
+     "CID": "H18.6"
+	}
+]

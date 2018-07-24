@@ -1,8 +1,5 @@
 package ihello.com.baymax.Model
 
-import java.io.Serializable
-
-
 class RespostasDepressao(): ArrayList<Respostas>() {
 
 }
