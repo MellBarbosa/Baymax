@@ -6,6 +6,10 @@ import android.view.MenuItem
 
 class ResultadoIdentificacaoDoencaActivity : AppCompatActivity() {
 
+    companion object {
+        var nome = ""
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado_identificacao_doenca)

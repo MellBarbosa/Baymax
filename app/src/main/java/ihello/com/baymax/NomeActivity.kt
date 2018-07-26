@@ -19,9 +19,11 @@ class NomeActivity : AppCompatActivity() {
 
         btnNext.setOnClickListener{
             if (ValidaDados()) {
+                ResultadoIdentificacaoDoencaActivity.nome = edtNome.text.toString()
                 val intent = Intent(this, SintomasActivity::class.java)
                 startActivity(intent)
             }
+
         }
     }
 
