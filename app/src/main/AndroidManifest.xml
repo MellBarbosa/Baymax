@@ -7,22 +7,20 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CalculoImcActivity" />
-        <activity android:name=".NomeActivity" />
-        <activity android:name=".SintomasActivity" />
-        <activity android:name=".TesteDepressaoActivity" />
-        <activity android:name=".ResultadoIdentificacaoDoencaActivity" />
-        <activity android:name=".SintomasAdapter"></activity>
+        <activity android:name=".CalculoImcActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SintomasActivity" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait" />
+        <activity android:name=".TesteDepressaoActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ResultadoIdentificacaoDoencaActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
