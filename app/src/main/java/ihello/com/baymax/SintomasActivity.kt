@@ -13,6 +13,7 @@ import java.io.InputStream
 class SintomasActivity : AppCompatActivity() {
 
     lateinit var sintomas : Sintomas
+    lateinit var sintomasList: Sintomas
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +34,8 @@ class SintomasActivity : AppCompatActivity() {
             // erro
         }
 
-        rv_sintomas.adapter = SintomasAdapter(sintomas)
+        sintomasList = sintomas
+        rv_sintomas.adapter = SintomasAdapter(sintomas, sintomasList)
         val layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
         rv_sintomas.layoutManager = layoutManager
 

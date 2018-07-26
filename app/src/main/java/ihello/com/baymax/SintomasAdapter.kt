@@ -15,7 +15,7 @@ import ihello.com.baymax.Model.Sintoma
 import ihello.com.baymax.Model.Sintomas
 import kotlinx.android.synthetic.main.activity_sintomas_adapter.view.*
 
-class SintomasAdapter(var items: Sintomas) : RecyclerView.Adapter<SintomasAdapter.ViewHolder>() {
+class SintomasAdapter(var items: Sintomas, val sintomas: Sintomas) : RecyclerView.Adapter<SintomasAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemView = LayoutInflater.from(parent.context)
                 .inflate(R.layout.activity_sintomas_adapter, parent,false)
@@ -24,6 +24,15 @@ class SintomasAdapter(var items: Sintomas) : RecyclerView.Adapter<SintomasAdapte
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+
+        holder.cbSelecionado.tag = position
+        holder.cbSelecionado.isChecked = sintomas[position].Selecionado
+
+        holder.cbSelecionado.setOnClickListener {
+            val pos = holder.cbSelecionado.tag as Int
+            sintomas[pos].Selecionado = !sintomas[pos].Selecionado
+        }
+
         var sintomas = items[position]
         holder?.tvSintoma?.text = sintomas.Sintoma
         holder?.tvRegiao?.text = sintomas.Regiao
