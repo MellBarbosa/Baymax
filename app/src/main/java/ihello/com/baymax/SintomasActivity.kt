@@ -13,7 +13,6 @@ import java.io.InputStream
 class SintomasActivity : AppCompatActivity() {
 
     lateinit var sintomas : Sintomas
-    lateinit var sintomasList: Sintomas
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,14 +27,13 @@ class SintomasActivity : AppCompatActivity() {
             val jsonStringS = inputStreamS.bufferedReader().use { it.readText() }
 
             val gsonS = Gson()
-            sintomas = gsonS.fromJson(jsonStringS, Sintomas::class.java!!)
+            sintomas = gsonS.fromJson(jsonStringS, Sintomas::class.java)
 
         } catch (e: Exception) {
             // erro
         }
 
-        sintomasList = sintomas
-        rv_sintomas.adapter = SintomasAdapter(sintomas, sintomasList)
+        rv_sintomas.adapter = SintomasAdapter(sintomas)
         val layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
         rv_sintomas.layoutManager = layoutManager
 

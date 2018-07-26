@@ -34,7 +34,7 @@ class TesteDepressaoActivity : AppCompatActivity() {
             val jsonString = inputStream.bufferedReader().use { it.readText() }
 
             val gson = Gson()
-            respostas = gson.fromJson(jsonString, RespostasDepressao::class.java!!)
+            respostas = gson.fromJson(jsonString, RespostasDepressao::class.java)
 
         } catch (e: Exception) {
             // erro
