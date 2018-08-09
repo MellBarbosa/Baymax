@@ -6,7 +6,7 @@ class Sintomas() : ArrayList<Sintoma>() {
 class Sintoma{
 
     var Selecionado : Boolean = false
-    var DoencaId : Int = 0
+    lateinit var Doencas : List<Int>
     var Sintoma : String = ""
     var Regiao : String = ""
 }

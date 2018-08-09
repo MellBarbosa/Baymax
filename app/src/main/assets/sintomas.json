@@ -1,1187 +1,785 @@
 [
    {
-     "DoencaId": 1,
+     "Doencas": [1],
      "Sintoma": "Tosse",
      "Regiao": "Nasal"
 	},
 	{
-     "DoencaId": 1,
+	 "Doencas": [1],
      "Sintoma": "Dores",
      "Regiao": "Peito"
 	},
 	{
-     "DoencaId": 1,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 1,
-     "Sintoma": "Febre",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 1,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 1,
-     "Sintoma": "Suor ",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 1,
-     "Sintoma": "Perda de peso",
-     "Regiao": "Peso"
-	},
-	{
-     "DoencaId": 1,
-     "Sintoma": "Catarro",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 1,
-     "Sintoma": "Inchaço nos gânglios",
-     "Regiao": "Garganta"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Congestão",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Nariz escorrendo",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Perda de olfato",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Vermelhidão",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Espirros",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Nariz entupido",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Coceira",
-     "Regiao": "Olhos"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Inchaço",
-     "Regiao": "Olhos"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Vermelhidão",
-     "Regiao": "Olhos"
-	},
-	{
-     "DoencaId": 2,
-     "Sintoma": "Respiração Sibilante",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 3,
+     "Doencas": [3,17],
      "Sintoma": "Dores",
      "Regiao": "Articulações"
 	},
 	{
-     "DoencaId": 3,
-     "Sintoma": "Tosse com catarro",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Calafrios",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Desidratação",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Febre",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Mal-estar",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Suor",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Congestão",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Espirros",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Nariz Escorrendo",
-     "Regiao": "Nasal"
-	},
-	{
-     "DoencaId": 3,
-     "Sintoma": "Irritação",
-     "Regiao": "Garganta"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Tosse com catarro",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Tosse seca",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Tosse crônia",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Calafrios",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Febre",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Mal-estar",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Falta de ar ",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Infecção",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Respiração Sibilante",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Desconforto",
-     "Regiao": "Peito"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Coriza",
-     "Regiao": "Nariz"
-	},
-	{
-     "DoencaId": 4,
-     "Sintoma": "Dificuldade em dormir",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Tosse com catarro",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Tosse seca",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Tosse crônica",
-     "Regiao": "Boca"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Dificuldade em respirar",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Falta de ar",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Infecções",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Respiração pela boca",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Respiração sibilante",
-     "Regiao": "Respiratória"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Ansiedade",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Aperto",
-     "Regiao": "Peito"
-	},
-	{
-     "DoencaId": 5,
-     "Sintoma": "Irritação",
-     "Regiao": "Garganta"
-	},
-	{
-     "DoencaId": 6,
-     "Sintoma": "Febre",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 6,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 6,
-     "Sintoma": "Nauseas",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 6,
-     "Sintoma": "Vomitos",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 6,
-     "Sintoma": "Ternura",
-     "Regiao": "Abdominal"
-	},
-	{
-     "DoencaId": 7,
-     "Sintoma": "Dor",
-     "Regiao": "Abdômen"
-	},
-	{
-     "DoencaId": 7,
-     "Sintoma": "Dor",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 7,
-     "Sintoma": "Nauseas",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 7,
-     "Sintoma": "Vomitos",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 7,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Dor",
-     "Regiao": "Abdomên"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Dor",
-     "Regiao": "Reto"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Calafrios",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Desidratação",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Febre",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Letargia",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Sede",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Tontura",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Suor",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Diarreia",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Arroto",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Esgasgos",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Fezes Verdes",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Dor de cabeça",
-     "Regiao": "Cabeça"
-	},
-	{
-     "DoencaId": 8,
-     "Sintoma": "Boca seca",
-     "Regiao": "Cabeça"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Dor",
-     "Regiao": "Abdomen"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Dor",
-     "Regiao": "Pélvis"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Dor",
-     "Regiao": "Reto"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Sangue nas fezes",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Constipação",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Diarreia",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Evacuação",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Fezes finas",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Nausea",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Gases",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Anemia",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Desconforto",
-     "Regiao": "Abdomen"
-	},
-	{
-     "DoencaId": 9,
-     "Sintoma": "Perda de peso",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 10,
-     "Sintoma": "Feses ressecadas",
-     "Regiao": "Reto"
-	},
-	{
-     "DoencaId": 10,
-     "Sintoma": "Feses duras",
-     "Regiao": "Reto"
-	},
-	{
-     "DoencaId": 10,
-     "Sintoma": "Poucas evacuações",
-     "Regiao": "Reto"
-	},
-	{
-     "DoencaId": 10,
-     "Sintoma": "Inchaço",
-     "Regiao": "Abdomen"
-	},
-	{
-     "DoencaId": 10,
-     "Sintoma": "Gases",
-     "Regiao": "Gastrointestinal"
-	},
-	{
-     "DoencaId": 10,
+     "Doencas": [10],
      "Sintoma": "Dores ao tentar evacuar",
      "Regiao": "*"
 	},
 	{
-     "DoencaId": 11,
+     "Doencas": [11],
      "Sintoma": "Leves dores",
      "Regiao": "Cabeça"
 	},
 	{
-     "DoencaId": 11,
-     "Sintoma": "Dificuldade em dormir",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 11,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 11,
-     "Sintoma": "Irritabilidade",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 11,
-     "Sintoma": "Dificuldade de concentração",
-     "Regiao": "Cerébro"
-	},
-	{
-     "DoencaId": 11,
-     "Sintoma": "Sensibilidade à luz",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 11,
+     "Doencas": [11],
      "Sintoma": "Dores",
      "Regiao": "Músculo"
 	},
 	{
-     "DoencaId": 12,
+     "Doencas": [12,23],
      "Sintoma": "Dores",
      "Regiao": "Olhos"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Rigidez",
-     "Regiao": "Musculos"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Reflexos iperativos",
-     "Regiao": "Nervoso"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Falta de equilíbrio",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Fraqueza",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Tontura",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Incotinência urinária",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Perda de visão",
-     "Regiao": "Olhos"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Visão dupla",
-     "Regiao": "Olhos"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Formigamento",
-     "Regiao": "Sensorial"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Disfunção sexual",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Ansiedade",
-     "Regiao": "Humor"
-	},
-	{
-     "DoencaId": 12,
-     "Sintoma": "Dificuldade na fala",
-     "Regiao": "Fala"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Tremor",
-     "Regiao": "Mao"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Dificuldade com movimentos",
-     "Regiao": "Musculos"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Movimento corporal lento",
-     "Regiao": "Musculos"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Anormalidade ao caminhar",
-     "Regiao": "Musculos"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Instabilidade",
-     "Regiao": "Musculos"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Amnésia",
-     "Regiao": "Cerébro"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Demência",
-     "Regiao": "Cerébro"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Dificuldade em pensar",
-     "Regiao": "Cerébro"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Falta de equilibrio",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Tontura",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Apatia",
-     "Regiao": "Humor"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Dificuldade na fala ",
-     "Regiao": "Fala"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Gotejamento de urina",
-     "Regiao": "Urinária"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Perda de olfato",
-     "Regiao": "Nariz"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Depressão",
-     "Regiao": "Psicológico"
-	},
-	{
-     "DoencaId": 13,
-     "Sintoma": "Perda de peso",
-     "Regiao": "Peso"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Declínio mental",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Confusão mental",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Delírio",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Invenção de coisas",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Perda de memória recente",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Esquecimento",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Desorientação",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Mudanças de humor",
-     "Regiao": "Humor"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Agitação",
-     "Regiao": "Comportamento"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Agressão",
-     "Regiao": "Comportamento"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Irritabilidade",
-     "Regiao": "Comportamento"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Alucinação",
-     "Regiao": "Psicológicos"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Paranoia",
-     "Regiao": "Psicológicos"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Depressão",
-     "Regiao": "Psicológicos"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Contrações musculares",
-     "Regiao": "Musculos"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Perda de apetite",
-     "Regiao": "*"
-	},
-	{
-     "DoencaId": 14,
-     "Sintoma": "Fala embaralhada",
-     "Regiao": "Fala"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Desmaio",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Espasmos musculares",
-     "Regiao": "Musculo"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Formigamento",
-     "Regiao": "Sensorial"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Amnésia",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Confusão mental",
-     "Regiao": "Cognição"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Medo",
-     "Regiao": "Psicológico"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Depressão",
-     "Regiao": "Psicológico"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Convulsões",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Ansiedade",
-     "Regiao": "Psicológico"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Dor de cabeça",
-     "Regiao": "Cabeça"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Sonolência",
-     "Regiao": "Psicológico"
-	},
-	{
-     "DoencaId": 15,
-     "Sintoma": "Paralisação",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 16,
-     "Sintoma": "Dores",
-     "Regiao": "Costas"
-	},
-	{
-     "DoencaId": 16,
-     "Sintoma": "Costas encurvadas",
-     "Regiao": "Costas"
-	},
-	{
-     "DoencaId": 16,
-     "Sintoma": "Fratura ossea ",
-     "Regiao": "Ossea"
-	},
-	{
-     "DoencaId": 16,
-     "Sintoma": "Perda de altura",
-     "Regiao": "Ossea"
-	},
-	{
-     "DoencaId": 17,
+	},	{
+     "Doencas": [17],
      "Sintoma": "Dores",
      "Regiao": "Maos"
 	},
 	{
-     "DoencaId": 17,
-     "Sintoma": "Dores",
-     "Regiao": "Articulações"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Inchaço",
-     "Regiao": "Articulações"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Rigidez",
-     "Regiao": "Articulações"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Sensibilidade",
-     "Regiao": "Articulações"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Saliência ossea",
-     "Regiao": "Ossea"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Inchaço",
-     "Regiao": "Dedos"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Deformidade fisica",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 17,
-     "Sintoma": "Vermelhidão",
-     "Regiao": "Pele"
-	},
-	{
-     "DoencaId": 18,
+     "Doencas": [16,18],
      "Sintoma": "Dores",
      "Regiao": "Costas"
 	},
 	{
-     "DoencaId": 18,
+     "Doencas": [18],
      "Sintoma": "Dores",
      "Regiao": "Quadris"
 	},
 	{
-     "DoencaId": 18,
+     "Doencas": [18],
      "Sintoma": "Dores",
      "Regiao": "Ossea"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Calafrios",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Fadiga",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Febre",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Mal-estar",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Suor",
-     "Regiao": "Corpo"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Vermelhidão",
-     "Regiao": "Pele"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Ulceras",
-     "Regiao": "Pele"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Pus",
-     "Regiao": "Pele"
-	},
-	{
-     "DoencaId": 18,
-     "Sintoma": "Sensibilidade",
-     "Regiao": "Sensorial"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Deformidade",
-     "Regiao": "Ossea"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Deformidade",
-     "Regiao": "Dentes"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Irritabilidade",
-     "Regiao": "Pele"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Hiperatividade",
-     "Regiao": "Cérebro"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Baixa estatura",
-     "Regiao": "Ossea"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Tetania",
-     "Regiao": "Musculo"
-	},
-	{
-     "DoencaId": 19,
-     "Sintoma": "Convulsões",
-     "Regiao": "Cérebro"
-	},
-	{
-     "DoencaId": 20,
+	},	{
+     "Doencas": [20],
      "Sintoma": "Dores",
      "Regiao": "Costa"
 	},
 	{
-     "DoencaId": 20,
-     "Sintoma": "Cintura assimétrica",
-     "Regiao": "Cintura"
+     "Doencas": [23],
+     "Sintoma": "Dores",
+     "Regiao": "Cabeça"
 	},
 	{
-     "DoencaId": 20,
-     "Sintoma": "Deformidade física",
-     "Regiao": "Ossea"
+     "Doencas": [1,3,4,8,9,11,12,13,15,18],
+     "Sintoma": "Fadiga",
+     "Regiao": "Corpo"
 	},
 	{
-     "DoencaId": 20,
-     "Sintoma": "Espasmos musculares",
-     "Regiao": "Musculos"
+     "Doencas": [1,3,4,6,8,18],
+     "Sintoma": "Febre",
+     "Regiao": "Corpo"
+	},
+		{
+     "Doencas": [1,3,6,7,8,9,14],
+     "Sintoma": "Perda de apetite",
+     "Regiao": "Corpo"
 	},
 	{
-     "DoencaId": 20,
-     "Sintoma": "Inclinação para um lado",
-     "Regiao": "Ossea"
+     "Doencas": [1,3,8,18],
+     "Sintoma": "Suor",
+     "Regiao": "Corpo"
 	},
 	{
-     "DoencaId": 21,
-     "Sintoma": "Visão turva",
-     "Regiao": "Olho"
+     "Doencas": [1,9,13],
+     "Sintoma": "Perda de peso",
+     "Regiao": "Peso"
 	},
 	{
-     "DoencaId": 21,
-     "Sintoma": "Miopia",
-     "Regiao": "Olho"
+     "Doencas": [1],
+     "Sintoma": "Catarro",
+     "Regiao": "Nasal"
+	},	
+	{
+     "Doencas": [1],
+     "Sintoma": "Inchaço nos gânglios",
+     "Regiao": "Garganta"
 	},
 	{
-     "DoencaId": 21,
-     "Sintoma": "Visão distorcida",
-     "Regiao": "Olho"
+     "Doencas": [2,3],
+     "Sintoma": "Congestão",
+     "Regiao": "Nasal"
 	},
 	{
-     "DoencaId": 21,
-     "Sintoma": "Visão embaçada",
-     "Regiao": "Olho"
+     "Doencas": [2,3],
+     "Sintoma": "Nariz escorrendo",
+     "Regiao": "Nasal"
 	},
 	{
-     "DoencaId": 21,
+     "Doencas": [2,13],
+     "Sintoma": "Perda de olfato",
+     "Regiao": "Nasal"
+	},
+		{
+     "Doencas": [2],
+     "Sintoma": "Vermelhidão",
+     "Regiao": "Nasal"
+	},
+	{
+     "Doencas": [2,3],
+     "Sintoma": "Espirros",
+     "Regiao": "Nasal"
+	},
+		{
+     "Doencas": [2],
+     "Sintoma": "Nariz entupido",
+     "Regiao": "Nasal"
+	},
+	{
+     "Doencas": [2],
+     "Sintoma": "Coceira",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [2],
+     "Sintoma": "Inchaço",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [2,23,24],
+     "Sintoma": "Vermelhidão",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [2,4,5],
+     "Sintoma": "Respiração Sibilante",
+     "Regiao": "Respiratória"
+	},
+	{
+     "Doencas": [3,4,5],
+     "Sintoma": "Tosse com catarro",
+     "Regiao": "Boca"
+	},
+	{
+     "Doencas": [3,4,8,18],
+     "Sintoma": "Calafrios",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [3,8],
+     "Sintoma": "Desidratação",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [3,4,18],
+     "Sintoma": "Mal-estar",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [3,5],
+     "Sintoma": "Irritação",
+     "Regiao": "Garganta"
+	},	
+	{
+     "Doencas": [4,5],
+     "Sintoma": "Tosse seca",
+     "Regiao": "Boca"
+	},
+	{
+     "Doencas": [4,5],
+     "Sintoma": "Tosse crônia",
+     "Regiao": "Boca"
+	},
+	{
+     "Doencas": [4,5],
+     "Sintoma": "Falta de ar ",
+     "Regiao": "Respiratória"
+	},
+	{
+     "Doencas": [4,5],
+     "Sintoma": "Infecção",
+     "Regiao": "Respiratória"
+	},
+	{
+     "Doencas": [4],
+     "Sintoma": "Desconforto",
+     "Regiao": "Peito"
+	},
+	{
+     "Doencas": [4],
+     "Sintoma": "Coriza",
+     "Regiao": "Nariz"
+	},
+	{
+     "Doencas": [4,11],
+     "Sintoma": "Dificuldade em dormir",
+     "Regiao": "*"
+	},
+	{
+     "Doencas": [5],
+     "Sintoma": "Dificuldade em respirar",
+     "Regiao": "Respiratória"
+	},
+	{
+     "Doencas": [5],
+     "Sintoma": "Respiração pela boca",
+     "Regiao": "Respiratória"
+	},
+	{
+     "Doencas": [5,12,15],
+     "Sintoma": "Ansiedade",
+     "Regiao": "Psicológico"
+	},
+	{
+     "Doencas": [5],
+     "Sintoma": "Aperto",
+     "Regiao": "Peito"
+	},
+	{
+     "Doencas": [6,7],
+     "Sintoma": "Nauseas",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [6,7],
+     "Sintoma": "Vomitos",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [6],
+     "Sintoma": "Ternura",
+     "Regiao": "Abdominal"
+	},
+	{
+     "Doencas": [7,8,9],
+     "Sintoma": "Dor",
+     "Regiao": "Abdômen"
+	},
+	{
+     "Doencas": [7],
+     "Sintoma": "Dor",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [8,9],
+     "Sintoma": "Dor",
+     "Regiao": "Reto"
+	},
+	{
+     "Doencas": [8],
+     "Sintoma": "Letargia",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [8],
+     "Sintoma": "Sede",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [8,12,13],
+     "Sintoma": "Tontura",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [8,9],
+     "Sintoma": "Diarreia",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [8],
+     "Sintoma": "Arroto",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [8],
+     "Sintoma": "Esgasgos",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [8],
+     "Sintoma": "Fezes Verdes",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [8,15,21],
      "Sintoma": "Dor de cabeça",
      "Regiao": "Cabeça"
 	},
 	{
-     "DoencaId": 21,
-     "Sintoma": "Tensão ocular",
-     "Regiao": "Olho"
+     "Doencas": [8],
+     "Sintoma": "Boca seca",
+     "Regiao": "Cabeça"
 	},
 	{
-     "DoencaId": 22,
-     "Sintoma": "Visão embaçada",
-     "Regiao": "Olho"
+     "Doencas": [9],
+     "Sintoma": "Dor",
+     "Regiao": "Pélvis"
 	},
 	{
-     "DoencaId": 22,
-     "Sintoma": "Enxergar halos",
-     "Regiao": "Olho"
+     "Doencas": [9],
+     "Sintoma": "Sangue nas fezes",
+     "Regiao": "Gastrointestinal"
 	},
 	{
-     "DoencaId": 22,
-     "Sintoma": "Incapacidade de enxergar com pouca luz",
-     "Regiao": "Olho"
+     "Doencas": [9],
+     "Sintoma": "Constipação",
+     "Regiao": "Gastrointestinal"
 	},
 	{
-     "DoencaId": 22,
-     "Sintoma": "Perda de visão",
-     "Regiao": "Olho"
+     "Doencas": [9],
+     "Sintoma": "Evacuação",
+     "Regiao": "Gastrointestinal"
 	},
 	{
-     "DoencaId": 22,
-     "Sintoma": "Sensibilidade á luz",
-     "Regiao": "Olho"
+     "Doencas": [9],
+     "Sintoma": "Fezes finas",
+     "Regiao": "Gastrointestinal"
 	},
 	{
-     "DoencaId": 22,
-     "Sintoma": "Visão dupla",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 23,
-     "Sintoma": "Perda lenta da visão",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 23,
-     "Sintoma": "Dores",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 23,
-     "Sintoma": "Visão distorcida",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 23,
-     "Sintoma": "Visão embaçada",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 23,
+     "Doencas": [9,23],
      "Sintoma": "Nausea",
      "Regiao": "Gastrointestinal"
 	},
 	{
-     "DoencaId": 23,
+     "Doencas": [9,10],
+     "Sintoma": "Gases",
+     "Regiao": "Gastrointestinal"
+	},
+	{
+     "Doencas": [9],
+     "Sintoma": "Anemia",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [9],
+     "Sintoma": "Desconforto",
+     "Regiao": "Abdomen"
+	},
+	{
+     "Doencas": [10],
+     "Sintoma": "Feses ressecadas",
+     "Regiao": "Reto"
+	},
+	{
+     "Doencas": [10],
+     "Sintoma": "Feses duras",
+     "Regiao": "Reto"
+	},
+	{
+     "Doencas": [10],
+     "Sintoma": "Poucas evacuações",
+     "Regiao": "Reto"
+	},
+	{
+     "Doencas": [10],
+     "Sintoma": "Inchaço",
+     "Regiao": "Abdomen"
+	},
+	{
+     "Doencas": [11],
+     "Sintoma": "Irritabilidade",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [11],
+     "Sintoma": "Dificuldade de concentração",
+     "Regiao": "Cerébro"
+	},
+	{
+     "Doencas": [11],
+     "Sintoma": "Sensibilidade à luz",
+     "Regiao": "*"
+	},
+	{
+     "Doencas": [12],
+     "Sintoma": "Rigidez",
+     "Regiao": "Musculos"
+	},
+	{
+     "Doencas": [12],
+     "Sintoma": "Reflexos iperativos",
+     "Regiao": "Nervoso"
+	},
+	{
+     "Doencas": [12],
+     "Sintoma": "Falta de equilíbrio",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [12],
+     "Sintoma": "Fraqueza",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [12],
+     "Sintoma": "Incotinência urinária",
+     "Regiao": "*"
+	},
+	{
+     "Doencas": [12,22],
+     "Sintoma": "Perda de visão",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [12,22],
+     "Sintoma": "Visão dupla",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [12,15],
+     "Sintoma": "Formigamento",
+     "Regiao": "Sensorial"
+	},
+	{
+     "Doencas": [12],
+     "Sintoma": "Disfunção sexual",
+     "Regiao": "*"
+	},
+	{
+     "Doencas": [12,13],
+     "Sintoma": "Dificuldade na fala",
+     "Regiao": "Fala"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Tremor",
+     "Regiao": "Mao"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Dificuldade com movimentos",
+     "Regiao": "Musculos"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Movimento corporal lento",
+     "Regiao": "Musculos"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Anormalidade ao caminhar",
+     "Regiao": "Musculos"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Instabilidade",
+     "Regiao": "Musculos"
+	},
+	{
+     "Doencas": [13,15],
+     "Sintoma": "Amnésia",
+     "Regiao": "Cerébro"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Demência",
+     "Regiao": "Cerébro"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Dificuldade em pensar",
+     "Regiao": "Cerébro"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Falta de equilibrio",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Apatia",
+     "Regiao": "Humor"
+	},
+	{
+     "Doencas": [13],
+     "Sintoma": "Gotejamento de urina",
+     "Regiao": "Urinária"
+	},
+	{
+     "Doencas": [13,14,15],
+     "Sintoma": "Depressão",
+     "Regiao": "Psicológico"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Declínio mental",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14,15],
+     "Sintoma": "Confusão mental",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Delírio",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Invenção de coisas",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Perda de memória recente",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Esquecimento",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Desorientação",
+     "Regiao": "Cognição"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Mudanças de humor",
+     "Regiao": "Humor"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Agitação",
+     "Regiao": "Comportamento"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Agressão",
+     "Regiao": "Comportamento"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Irritabilidade",
+     "Regiao": "Comportamento"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Alucinação",
+     "Regiao": "Psicológicos"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Paranoia",
+     "Regiao": "Psicológicos"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Contrações musculares",
+     "Regiao": "Musculos"
+	},
+	{
+     "Doencas": [14],
+     "Sintoma": "Fala embaralhada",
+     "Regiao": "Fala"
+	},
+	{
+     "Doencas": [15],
+     "Sintoma": "Desmaio",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [15,20],
+     "Sintoma": "Espasmos musculares",
+     "Regiao": "Musculo"
+	},
+	{
+     "Doencas": [15],
+     "Sintoma": "Medo",
+     "Regiao": "Psicológico"
+	},
+	{
+     "Doencas": [15,19],
+     "Sintoma": "Convulsões",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [15],
+     "Sintoma": "Sonolência",
+     "Regiao": "Psicológico"
+	},
+	{
+     "Doencas": [15],
+     "Sintoma": "Paralisação",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [16],
+     "Sintoma": "Costas encurvadas",
+     "Regiao": "Costas"
+	},
+	{
+     "Doencas": [16],
+     "Sintoma": "Fratura ossea ",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [16],
+     "Sintoma": "Perda de altura",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [17],
+     "Sintoma": "Inchaço",
+     "Regiao": "Articulações"
+	},
+	{
+     "Doencas": [17],
+     "Sintoma": "Rigidez",
+     "Regiao": "Articulações"
+	},
+	{
+     "Doencas": [17],
+     "Sintoma": "Sensibilidade",
+     "Regiao": "Articulações"
+	},
+	{
+     "Doencas": [17],
+     "Sintoma": "Saliência ossea",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [17],
+     "Sintoma": "Inchaço",
+     "Regiao": "Dedos"
+	},
+	{
+     "Doencas": [17],
+     "Sintoma": "Deformidade fisica",
+     "Regiao": "Corpo"
+	},
+	{
+     "Doencas": [17,18],
+     "Sintoma": "Vermelhidão",
+     "Regiao": "Pele"
+	},
+	{
+     "Doencas": [18],
+     "Sintoma": "Ulceras",
+     "Regiao": "Pele"
+	},
+	{
+     "Doencas": [18],
+     "Sintoma": "Pus",
+     "Regiao": "Pele"
+	},
+	{
+     "Doencas": [18],
+     "Sintoma": "Sensibilidade",
+     "Regiao": "Sensorial"
+	},
+	{
+     "Doencas": [19],
+     "Sintoma": "Deformidade",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [19],
+     "Sintoma": "Deformidade",
+     "Regiao": "Dentes"
+	},
+	{
+     "Doencas": [19],
+     "Sintoma": "Irritabilidade",
+     "Regiao": "Pele"
+	},
+	{
+     "Doencas": [19],
+     "Sintoma": "Hiperatividade",
+     "Regiao": "Cérebro"
+	},
+	{
+     "Doencas": [19],
+     "Sintoma": "Baixa estatura",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [19],
+     "Sintoma": "Tetania",
+     "Regiao": "Musculo"
+	},
+	{
+     "Doencas": [20],
+     "Sintoma": "Cintura assimétrica",
+     "Regiao": "Cintura"
+	},
+	{
+     "Doencas": [20],
+     "Sintoma": "Deformidade física",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [20],
+     "Sintoma": "Inclinação para um lado",
+     "Regiao": "Ossea"
+	},
+	{
+     "Doencas": [21],
+     "Sintoma": "Visão turva",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [21,25],
+     "Sintoma": "Miopia",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [21,23],
+     "Sintoma": "Visão distorcida",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [21,22,23],
+     "Sintoma": "Visão embaçada",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [21],
+     "Sintoma": "Tensão ocular",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [22],
+     "Sintoma": "Enxergar halos",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [22],
+     "Sintoma": "Incapacidade de enxergar com pouca luz",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [22,25],
+     "Sintoma": "Sensibilidade á luz",
+     "Regiao": "Olhos"
+	},
+	{
+     "Doencas": [23],
+     "Sintoma": "Perda lenta da visão",
+     "Regiao": "Olhos"
+	},
+     "Doencas": [23],
      "Sintoma": "Vomito",
      "Regiao": "Gastrointestinal"
 	},
 	{
-     "DoencaId": 23,
-     "Sintoma": "Vermelhidão",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 23,
-     "Sintoma": "Dores",
-     "Regiao": "Cabeça"
-	},
-	{
-     "DoencaId": 24,
+     "Doencas": [24],
      "Sintoma": "Ardor",
-     "Regiao": "Olho"
+     "Regiao": "Olhos"
 	},
 	{
-     "DoencaId": 24,
+     "Doencas": [24],
      "Sintoma": "Irritação",
-     "Regiao": "Olho"
+     "Regiao": "Olhos"
 	},
 	{
-     "DoencaId": 24,
+     "Doencas": [24],
      "Sintoma": "Fotofobia",
-     "Regiao": "Olho"
+     "Regiao": "Olhos"
 	},
 	{
-     "DoencaId": 24,
-     "Sintoma": "Vermelhidão",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 25,
-     "Sintoma": "Miopia",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 25,
+     "Doencas": [25],
      "Sintoma": "Visão borrada",
-     "Regiao": "Olho"
+     "Regiao": "Olhos"
 	},
 	{
-     "DoencaId": 25,
-     "Sintoma": "Sensibilidade á luz",
-     "Regiao": "Olho"
-	},
-	{
-     "DoencaId": 25,
+     "Doencas": [25],
      "Sintoma": "Aumento da curvatura corneana",
-     "Regiao": "Olho"
+     "Regiao": "Olhos"
 	}
 ]
+	
