@@ -752,9 +752,10 @@
      "Sintoma": "Perda lenta da visão",
      "Regiao": "Olhos"
 	},
+        {
      "Doencas": [23],
-     "Sintoma": "Vomito",
-     "Regiao": "Gastrointestinal"
+     "Sintoma": "Vômito",
+     "Regiao": "GastroIntestinal"
 	},
 	{
      "Doencas": [24],
