@@ -1,5 +1,6 @@
 package ihello.com.baymax
 
+import android.annotation.SuppressLint
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Parcel
@@ -11,6 +12,7 @@ import android.view.ViewGroup
 import android.widget.*
 import ihello.com.baymax.Model.Sintoma
 import ihello.com.baymax.Model.Sintomas
+import ihello.com.baymax.R.id.*
 import kotlinx.android.synthetic.main.activity_sintomas_adapter.view.*
 
 class SintomasAdapter(var items: Sintomas) : RecyclerView.Adapter<SintomasAdapter.ViewHolder>(), Filterable {
@@ -25,6 +27,13 @@ class SintomasAdapter(var items: Sintomas) : RecyclerView.Adapter<SintomasAdapte
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+
+        if (position != 0){
+            if(itensFiltrados[position].Regiao != itensFiltrados[position - 1].Regiao)
+                holder.tvRegiao!!.visibility = View.VISIBLE
+            else
+                holder.tvRegiao!!.visibility = View.GONE
+            }
 
         holder.cbSelecionado.isChecked = itensFiltrados[position].Selecionado
 
