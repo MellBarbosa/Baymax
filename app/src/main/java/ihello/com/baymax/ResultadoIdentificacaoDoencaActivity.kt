@@ -2,13 +2,19 @@ package ihello.com.baymax
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.StaggeredGridLayoutManager
 import android.view.MenuItem
+import ihello.com.baymax.Model.Doencas
+import kotlinx.android.synthetic.main.activity_resultado_identificacao_doenca.*
 
 class ResultadoIdentificacaoDoencaActivity : AppCompatActivity() {
 
     companion object {
         var nome = ""
+        lateinit var possiveisDoencas : Doencas
     }
+
+    lateinit var adapter: ResultadoAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +23,13 @@ class ResultadoIdentificacaoDoencaActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
         supportActionBar?.title = "Relatório Médico"
+
+        tvPaciente.text = nome
+
+        adapter = ResultadoAdapter(possiveisDoencas)
+        rv_resultado.adapter = adapter
+        val layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
+        rv_resultado.layoutManager = layoutManager
 
     }
 

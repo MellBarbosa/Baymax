@@ -34,6 +34,8 @@ class SintomasAdapter(var items: Sintomas) : RecyclerView.Adapter<SintomasAdapte
             else
                 holder.tvRegiao!!.visibility = View.GONE
             }
+        else
+            holder.tvRegiao!!.visibility = View.VISIBLE
 
         holder.cbSelecionado.isChecked = itensFiltrados[position].Selecionado
 
