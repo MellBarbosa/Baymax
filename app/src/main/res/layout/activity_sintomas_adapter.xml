@@ -8,11 +8,13 @@
 
     <TextView
         android:id="@+id/tvSintoma"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tvRegiao"
         app:layout_constraintStart_toEndOf="@+id/cbSelecionado"
         app:layout_constraintTop_toBottomOf="@+id/tvRegiao" />
 
@@ -20,9 +22,8 @@
         android:id="@+id/tvRegiao"
         android:layout_width="0dp"
         android:layout_height="21dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="4dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="1dp"
         android:background="@color/colorPrimary"
         android:paddingLeft="16dp"
         android:text="TextView"
