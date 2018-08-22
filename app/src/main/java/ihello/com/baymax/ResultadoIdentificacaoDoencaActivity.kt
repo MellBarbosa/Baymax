@@ -4,14 +4,15 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.StaggeredGridLayoutManager
 import android.view.MenuItem
-import ihello.com.baymax.Model.Doencas
+import com.google.gson.reflect.TypeToken
+import ihello.com.baymax.Model.Doenca
 import kotlinx.android.synthetic.main.activity_resultado_identificacao_doenca.*
 
 class ResultadoIdentificacaoDoencaActivity : AppCompatActivity() {
 
     companion object {
         var nome = ""
-        lateinit var possiveisDoencas : Doencas
+        var possiveisDoencas : List<Doenca> = emptyList()
     }
 
     lateinit var adapter: ResultadoAdapter

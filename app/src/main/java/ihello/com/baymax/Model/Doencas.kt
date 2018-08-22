@@ -1,9 +1,5 @@
 package ihello.com.baymax.Model
 
-class Doencas() : ArrayList<Doenca>() {
-
-}
-
 class Doenca{
 
     var Id : Int = 0

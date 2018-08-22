@@ -10,9 +10,9 @@ import android.widget.Adapter
 import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.TextView
-import ihello.com.baymax.Model.Doencas
+import ihello.com.baymax.Model.Doenca
 
-class ResultadoAdapter(var doencas: Doencas) : RecyclerView.Adapter<ResultadoAdapter.ViewHolder>() {
+class ResultadoAdapter(var doencas: List<Doenca>) : RecyclerView.Adapter<ResultadoAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResultadoAdapter.ViewHolder {
         val itemView = LayoutInflater.from(parent.context)

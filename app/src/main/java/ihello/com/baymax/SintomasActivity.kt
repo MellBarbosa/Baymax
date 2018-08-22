@@ -10,7 +10,8 @@ import android.text.TextWatcher
 import android.view.MenuItem
 import android.widget.Toast
 import com.google.gson.Gson
-import ihello.com.baymax.Model.Doencas
+import com.google.gson.reflect.TypeToken
+import ihello.com.baymax.Model.Doenca
 import ihello.com.baymax.Model.Sintomas
 import kotlinx.android.synthetic.main.activity_sintomas.*
 import java.io.InputStream
@@ -20,7 +21,8 @@ class SintomasActivity : AppCompatActivity() {
 
     lateinit var sintomas : Sintomas
     lateinit var adapter: SintomasAdapter
-    lateinit var doencas : Doencas
+    var doencas : List<Doenca> = emptyList()
+    val doencaListType = object : TypeToken<List<Doenca>>() {}.type
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,6 +52,7 @@ class SintomasActivity : AppCompatActivity() {
             override fun afterTextChanged(s: Editable) {
             }
 
+
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
             }
 
@@ -60,28 +63,35 @@ class SintomasActivity : AppCompatActivity() {
         })
 
         btFinalizar.setOnClickListener{
-            try {
 
-                val itensSelecionados = adapter.items.filter { it.Selecionado }
-                        .map { it.Doencas  }
-                        .reduce { a, b -> a + b  }
-                        .distinct()
+            if (adapter.items.filter { it.Selecionado }.size == 0)
+                Toast.makeText(this, "Favor Selecionar ao menos um sintoma.", Toast.LENGTH_SHORT).show()
+            else
+            {
+                try {
 
-                val inputStreamD: InputStream = assets.open("doenças.json")
-                val jsonStringD = inputStreamD.bufferedReader().use { it.readText() }
+                    val itensSelecionados = adapter.items.filter { it.Selecionado }
+                            .map { it.Doencas  }
+                            .reduce { a, b -> a + b  }
+                            .distinct()
 
-                val gsonS = Gson()
-                ResultadoIdentificacaoDoencaActivity.possiveisDoencas = gsonS.fromJson(jsonStringD, Doencas::class.java)
-                ResultadoIdentificacaoDoencaActivity.possiveisDoencas.filter { itensSelecionados.contains(it.Id) }
+                    val inputStreamD: InputStream = assets.open("doenças.json")
+                    val jsonStringD = inputStreamD.bufferedReader().use { it.readText() }
 
-            } catch (e: Exception) {
-                // erro
+                    val gsonS = Gson()
+                    doencas = gsonS.fromJson(jsonStringD, doencaListType)
+                    ResultadoIdentificacaoDoencaActivity.possiveisDoencas =  doencas.filter { itensSelecionados.contains(it.Id) }
+
+                } catch (e: Exception) {
+                    // erro
+                }
+
+                val intent = Intent(this, ResultadoIdentificacaoDoencaActivity::class.java)
+                startActivity(intent)
+
             }
 
-
-               val intent = Intent(this, ResultadoIdentificacaoDoencaActivity::class.java)
-               startActivity(intent)
-        }
+            }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
