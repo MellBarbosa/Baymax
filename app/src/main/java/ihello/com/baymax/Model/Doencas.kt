@@ -7,5 +7,5 @@ class Doenca{
     var Descricao : String = ""
     var Area : String = ""
     var Instrucoes : String = ""
-    var Cid : String = ""
+    var CID : String = ""
 }

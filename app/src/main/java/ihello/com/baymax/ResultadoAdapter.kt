@@ -29,7 +29,7 @@ class ResultadoAdapter(var doencas: List<Doenca>) : RecyclerView.Adapter<Resulta
         val doc = doencas[position]
         holder.tvDoenca?.text = doc.Nome
         holder.tvDescricao?.text = doc.Descricao
-        holder.tvCid?.text = doc.Cid
+        holder.tvCid?.text = doc.CID
         holder.tvInstrucoes?.text = doc.Instrucoes
     }
 
