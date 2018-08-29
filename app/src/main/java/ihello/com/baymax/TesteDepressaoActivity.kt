@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
+import android.text.Html
 import android.view.MenuItem
 import android.widget.Toast
 import com.google.gson.Gson
@@ -11,6 +12,7 @@ import ihello.com.baymax.Model.Respostas
 import ihello.com.baymax.Model.RespostasDepressao
 import kotlinx.android.synthetic.main.activity_teste_depressao.*
 import java.io.InputStream
+
 
 class TesteDepressaoActivity : AppCompatActivity() {
 
@@ -105,8 +107,8 @@ class TesteDepressaoActivity : AppCompatActivity() {
             builder.setMessage("Depressão moderada \n" +
                     " Favor procurar ajuda médica.")
         else if (pontos >= 29 && pontos <= 63)
-            builder.setMessage("Depressão grave \n" +
-                    " Favor procurar ajuda médica.")
+            builder.setMessage(Html.fromHtml("<b>"+"DEPRESSÃO GRAVE " + "<br />" +
+                    " Favor procurar ajuda médica." + "</b>"))
 
         builder.create()
 

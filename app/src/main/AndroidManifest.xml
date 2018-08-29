@@ -34,7 +34,9 @@
         <activity
             android:name=".ResultadoIdentificacaoDoencaActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ResultadoAdapter"></activity>
+        <activity
+            android:name=".ResultadoAdapter"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

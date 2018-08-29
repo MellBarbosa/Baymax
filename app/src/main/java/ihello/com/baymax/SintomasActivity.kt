@@ -80,7 +80,7 @@ class SintomasActivity : AppCompatActivity() {
 
                     val gsonS = Gson()
                     doencas = gsonS.fromJson(jsonStringD, doencaListType)
-                    ResultadoIdentificacaoDoencaActivity.possiveisDoencas =  doencas.filter { itensSelecionados.contains(it.Id) }
+                    ResultadoIdentificacaoDoencaActivity.possiveisDoencas =  doencas.filter { itensSelecionados.contains(it.Id) }.take(2)
 
                 } catch (e: Exception) {
                     // erro
